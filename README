@@ -1,0 +1,1 @@
+Very small Chrome extension to mute and skip ads as they appear at the beginning of youtube videos. I plan to fill it out and make it a bit more aware of what's going on in the page (so it will be more tolerant of potential video/ad load delays). BSD license terms apply.

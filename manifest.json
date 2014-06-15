@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "yougag",
+  "version": "0.0.0",
+
+  "description": "silences ads and automatically skips them when possible",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"], 
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["*://*.youtube.com/*"]
+
+}
